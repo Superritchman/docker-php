@@ -1,4 +1,4 @@
-FROM php:8.1.12-apache
+FROM php:8.1.13-apache
 
 COPY config/*.ini /usr/local/etc/php/conf.d/
 
